@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: auto;
+ text-align: center;
+  width: 300px;
+  line-height: 4rem;
+}
+
+.description {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.circle {
+  margin: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: #4F6A13;
+  border-radius: 50%;
+}
+
+.circle img {
+  padding-top: 50px;
+}
+
+.circle__1 {
+  position: relative;
+  left: 300px;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  
+}
+
+.circle__2 {
+  position: relative;
+  left: 600px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+}
+
+.circle__3 {
+  position: relative;
+  left: 300px;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+.circle__description {
+  width: 300px;
+  margin: auto;
+}
