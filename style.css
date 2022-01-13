@@ -12,8 +12,7 @@ body {
 	src: url("./fonts/From-the-Woods.woff") format("woff");
 }
 .background__image {
-	background-image: url("./pictures/bg.jpg");
-	background-size: 1080 150px;
+	background: url("./pictures/bg.jpg") center/cover no-repeat fixed;
 }
 
 .title {
