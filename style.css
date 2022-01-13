@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Open Sans", sans-serif;
+	color: #fff;
 }
 
 @font-face {
@@ -13,7 +14,6 @@ body {
 .background__image {
 	background-image: url("./pictures/bg.jpg");
 	background-size: 1080 150px;
-	/* height: 150px; */
 }
 
 .title {
