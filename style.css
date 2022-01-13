@@ -1,62 +1,94 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+@font-face {
+	font-family: "From the Woods";
+	src: url("./fonts/From-the-Woods.woff") format("woff");
+}
+.background__image {
+	background-image: url("./pictures/bg.jpg");
+	background-size: 1080 150px;
+	/* height: 150px; */
 }
 
 .title {
-  margin: auto;
- text-align: center;
-  width: 300px;
-  line-height: 4rem;
+	font-family: "From the Woods";
+	font-size: 6em;
+	margin: auto;
+	text-align: center;
+	width: 300px;
+	line-height: 1.5em;
 }
 
 .description {
-  text-align: center;
-  width: 500px;
-  margin: auto;
-  padding-top: 30px;
+	text-align: center;
+	width: 500px;
+	margin: auto;
+	padding-top: 30px;
 }
 
 .circle {
-  margin: 20px;
-  width: 400px;
-  height: 400px;
-  background-color: #4F6A13;
-  border-radius: 50%;
+	margin: 20px;
+	width: 400px;
+	height: 400px;
+	background-color: #4f6a13;
+	border-radius: 50%;
 }
 
 .circle img {
-  padding-top: 50px;
+	padding-top: 50px;
+}
+
+.circle__title {
+	font-weight: 700;
 }
 
 .circle__1 {
-  position: relative;
-  left: 300px;
-  margin-top: 50px;
-  color: white;
-  text-align: center;
-  
+	position: relative;
+	left: 300px;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
 }
 
 .circle__2 {
-  position: relative;
-  left: 600px;
-  margin-top: 30px;
-  color: white;
-  text-align: center;
+	position: relative;
+	left: 600px;
+	margin-top: 30px;
+	color: white;
+	text-align: center;
 }
 
 .circle__3 {
-  position: relative;
-  left: 300px;
-  margin-top: 30px;
-  color: white;
-  text-align: center;
-
+	position: relative;
+	left: 300px;
+	margin-top: 30px;
+	color: white;
+	text-align: center;
 }
 
 .circle__description {
-  width: 300px;
-  margin: auto;
+	width: 300px;
+	margin: auto;
+}
+
+.footer {
+	padding: 2em;
+	background-color: #2d4823;
+	margin-top: 5em;
+	text-align: center;
+	color: #fff;
+}
+
+.footer__title {
+	font-weight: 700;
+}
+
+.footer__description {
+	margin: 0 8em;
 }
